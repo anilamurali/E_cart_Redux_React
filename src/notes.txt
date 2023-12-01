@@ -1,0 +1,37 @@
+                        
+                        E-CART-FRONTEND
+                      -------------------
+                1. Project creation - npx crate-react-app e-cart-redux
+                2. Run the Project
+                3. clear all unwanted code
+                4. Install  3rd party libraries
+                    1. react- bootsrap -npm install react-bootstrap bootstrap
+                    2. fontawsome -npm i @fortawesome/fontawesome-free
+                    3. mdbbootstrap -npm i mdb-react-ui-kit
+                    4. bootswatch
+                    5. goole fonts
+                5. Components creation
+                    Pages
+                        -Home.jsx
+                        -WishList.jsx
+                        -Cart.jsx
+                        -PageNotFount.jsx
+                    Components
+                        -Header.jsx
+                        -Footer.jsx
+                6. Setup Path
+                    install- npm i react-router-dom
+                7. Page Designing
+                8.creation of Hook folder for custom Hook
+                   Create  useFetch.js in Hook Folder
+                9. install redux
+                    -npm install @reduxjs/toolkit
+                    -npm install react-redux
+                     {
+                        -create a folder redux
+                        -create a js file call store.js
+                        -inside  store .js crate astore for the Project
+                        -crate another folder slices
+                        -Inside slices create js file for cart and WishList
+                        -to access store glabally  pass store in Provide tag in index.js 
+                     }
